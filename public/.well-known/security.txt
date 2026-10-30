@@ -1,0 +1,4 @@
+Contact: mailto:info.asblcompany@gmail.com
+Expires: 2027-10-30T00:00:00.000Z
+Preferred-Languages: it, en
+Canonical: https://sintesiristorante.yuvraj-chander.workers.dev/.well-known/security.txt

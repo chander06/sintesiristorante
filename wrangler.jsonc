@@ -1,0 +1,13 @@
+// Configurazione del Worker Cloudflare che pubblica il sito.
+// Va nella ROOT della repo (non dentro public/).
+// "name" deve essere IDENTICO al nome del Worker creato su Cloudflare:
+// il sito sarà su https://<name>.yuvraj-chander.workers.dev
+{
+  "name": "sintesiristorante",
+  "compatibility_date": "2026-10-30",
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  }
+}
